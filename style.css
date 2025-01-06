@@ -270,6 +270,10 @@ a:visited {
     }
 }
 
+.noticias {
+    list-style-type: none;
+}
+
 .equipe {
     display: flex;
     flex-direction: column;
@@ -309,4 +313,33 @@ a:visited {
     }
 }
 
-.noticias {}
+.mainPubliContent {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+
+    .title {
+        margin-top: 20px;
+        font-family: 'League Spartan';
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+    .resumin {
+        margin-top: 10px;
+        font-size: small;
+        font-style: italic;
+        color: rgb(126, 126, 126);
+    }
+
+    .data {
+        margin: 5px 0px;
+        font-size: small;
+    }
+
+    .autor {
+        font-weight: bold;
+        margin-top: 10px;
+        font-size: small;
+    }
+}
