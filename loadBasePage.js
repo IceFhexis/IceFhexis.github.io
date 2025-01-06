@@ -28,10 +28,10 @@ document.addEventListener("DOMContentLoaded", () => {
             </a>
             <span id="slogan">Fala Verdade</span>
         </div>
-        <input type="search" id="site-search" name="q" placeholder="Search..." />
-        <a href="/nossaEquipe.html"><span>Quem somos</span></a>
+        <input type="search" id="site-search" name="q" placeholder="..." />
+        <a href="/nossa equipe.html"><span>Quem somos</span></a>
         <span id="scrollToFooter">Contatos</span>
-        <img src="./img/img.jpg"/>
+        <img src="./img/img.jpg" style="opacity: 0.04;"/>
     `;
     const header = document.createElement("header");
     header.innerHTML = headerContent;
