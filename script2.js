@@ -35,6 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const imageElement = document.createElement('img');
         imageElement.src = imageUrl;
         imageElement.alt = 'Image';
+        imageElement.className = "imag";
         imageContainer.appendChild(imageElement);
     
         const imageSourceSpan = document.createElement('span');
@@ -48,12 +49,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const shareIcons = document.createElement('li');
         shareIcons.className = 'shareIcons';
-    
+        
         const facebookIcon = document.createElement('i');
-        facebookIcon.className = 'bi bi-facebook';
+        facebookIcon.className = 'bi bi-instagram';
     
         const whatsappIcon = document.createElement('i');
-        whatsappIcon.className = 'bi bi-whatsapp';
+        whatsappIcon.className = 'bi bi-envelope';
     
         const shareIcon = document.createElement('i');
         shareIcon.className = 'bi bi-share';
@@ -72,7 +73,23 @@ document.addEventListener('DOMContentLoaded', () => {
         shareIcons.appendChild(facebookIcon);
         shareIcons.appendChild(whatsappIcon);
         shareIcons.appendChild(shareIcon);
-    
+        facebookIcon.style.cursor = "pointer";
+        whatsappIcon.style.cursor = "pointer";
+        shareIcon.style.cursor = "pointer";
+        facebookIcon.addEventListener('click', () => {
+            window.open("https://www.instagram.com/fala_.verdade");
+        })
+        whatsappIcon.addEventListener('click', () => {
+            window.open("mailto:fala.verdade.contato@gmail.com");
+        })
+        shareIcon.addEventListener('click', () => {
+            navigator.clipboard.writeText(document.location.href).then(function() {
+                alert('Copiado');
+            }, function() {
+                alert('Copy error')
+            });            
+        })
+
         newListItem.appendChild(mainPubliContent);
 
         mainDivElement.appendChild(newListItem);
@@ -119,7 +136,7 @@ https://www.meioemensagem.com.br/midia/google-e-pl-das-fake-news
                     'A plataformização, exemplificada pelo impacto do BBB nas redes sociais, trouxe maior engajamento do público, mas também diversos desafios.',
                     'Por Anna Beatriz Egídio',
                     '05/01/2025',
-                    './img/mar3.png',
+                    './img/mar3.jpg',
                     'Foto: Bastian Riccardi https://www.pexels.com/pt-br/foto/smartphone-tecnologia-exibicao-visor-15406294/',
                     `A plataformização é o processo crescente em que atividades sociais, econômicas e culturais são mediadas por plataformas digitais, que conectam usuários e fornecedores de serviços de maneira direta. Esse fenômeno tem transformado vários setores, da economia ao entretenimento, e um dos exemplos mais visíveis é o "Big Brother Brasil" (BBB). O programa, um ícone da televisão brasileira, não é mais apenas uma competição de reality show, mas se tornou um evento altamente influenciado pela dinâmica das redes sociais. No contexto da plataformização, o BBB se expandiu para além da televisão, sendo transmitido e comentado em tempo real nas redes sociais, com o público participando ativamente da seleção e julgamento dos participantes. Essa interatividade intensifica a criação de comunidades online, onde os fãs e seguidores do programa podem se organizar, fazer campanhas e até espalhar conteúdos que, muitas vezes, não são verdadeiros.
 A relação entre o BBB e as fake news é clara de como a plataformização pode gerar impactos negativos, como a disseminação de desinformação. Durante o programa, notícias falsas sobre os participantes ou sobre acontecimentos do jogo se espalham rapidamente nas redes sociais, muitas vezes com a intenção de manipular a opinião pública. Fakes podem ser usadas para prejudicar a imagem de algum participante, influenciar votos e distorcer a percepção do público. As plataformas digitais, embora possam ser um espaço de comunicação aberta, muitas vezes não oferecem os mecanismos necessários para conter a propagação dessas informações falsas.

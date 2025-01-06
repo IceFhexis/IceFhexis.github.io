@@ -132,24 +132,6 @@ a:visited {
     li {
         margin-bottom: 10px
     }
-
-    #pagina2 {
-        li {
-            .shareIcons {
-                width: 100%;
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-                padding: 10px 0px;
-                
-                i {
-                    display: flex;
-                    align-items: center;
-                }
-            } 
-        }
-    }
-
     #pagina1 {
         display: flex;
         align-items: center;
@@ -342,4 +324,34 @@ a:visited {
         margin-top: 10px;
         font-size: small;
     }
+
+    .imageSource {
+        margin-top: 10px;
+        text-justify: inter-word;
+        text-align: center;
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+
+    .imag {
+        display: block; /* Garante que o elemento seja tratado como um bloco */
+        margin: 0 auto; /* Centraliza horizontalmente */
+        width: 50%; /* Define uma largura de 50% da tela */
+        text-align: center; /* Não é necessário para centralizar a imagem, mas pode ser útil para texto filho */
+    }
 }
+
+.shareIcons {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 0px;
+
+    i {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        font-size: 18px;
+    }
+} 
