@@ -101,8 +101,5 @@ document.addEventListener('DOMContentLoaded', () => {
     addItemToMain('./img/publi5.jpg', 'Fala Verdade recomenda: A Caça', 
         '05/01/2025',"Maria Beatriz Figueiredo",  "left");
 
-    document.getElementById('scrollToFooter').addEventListener('click', function() {
-        const footer = document.querySelector('footer');
-        footer.scrollIntoView({ behavior: 'smooth' });
-    });
+
 });
