@@ -87,8 +87,12 @@ footer i {
     font-size: 20px;
 }
 
-a:link {
+a:link:not(#email2){
     color: #FFFF;
+}
+
+a:link {
+
     text-decoration: none;
 }
 
@@ -189,6 +193,7 @@ a:visited {
         .resumin {
             margin-top: 10px;
             font-size: small;
+            font-style: italic;
             color: rgb(126, 126, 126);
         }
 
@@ -224,6 +229,13 @@ a:visited {
     font-weight: bold; 
 }
 
+.resumin {
+    margin-top: 10px;
+    font-size: small;
+    font-style: italic;
+    color: rgb(126, 126, 126);
+}
+
 /* Estilo do throbber */
 #throbber {
     position: fixed;
@@ -255,5 +267,43 @@ a:visited {
     }
     100% {
         transform: rotate(360deg);
+    }
+}
+
+.equipe {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+    
+    .equipe2 {
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .equipe3 {
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 20px;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    .bi {
+        font-size: 20px;
+    }
+
+    img {
+        margin-top: 20px;
+        width: 60%;
+        height: 80%;
+        align-self: center;
+    }
+
+    .resumin {
+        text-align: center;
+        font-size: 14px;
+        color:rgb(59, 59, 59)
     }
 }
