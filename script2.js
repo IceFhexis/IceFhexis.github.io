@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
         imageContainer.appendChild(imageElement);
     
         const imageSourceSpan = document.createElement('span');
-        imageSourceSpan.className = 'imageSource';
+        imageSourceSpan.className = 'imag';
         imageSourceSpan.textContent = imageSource;
     
         mainPubliContent.appendChild(titleSpan);

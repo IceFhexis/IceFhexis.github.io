@@ -328,14 +328,14 @@ a:visited {
     .imageSource {
         margin-top: 10px;
         text-justify: inter-word;
-        text-align: center;
+        text-align: justify;
         margin-right: 20px;
         margin-bottom: 10px;
     }
 
     .imag {
         display: block; /* Garante que o elemento seja tratado como um bloco */
-        margin: 0 auto; /* Centraliza horizontalmente */
+        margin: 10px auto; /* Centraliza horizontalmente */
         width: 50%; /* Define uma largura de 50% da tela */
         text-align: center; /* Não é necessário para centralizar a imagem, mas pode ser útil para texto filho */
     }
