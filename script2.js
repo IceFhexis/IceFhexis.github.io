@@ -119,14 +119,7 @@ A implementação de uma regulamentação eficaz que controle as fake news sem p
 
 A PL das Fake News está em constante evolução e será fundamental observar como o Brasil se posicionará em relação à regulamentação das plataformas digitais. O projeto não só afeta a dinâmica de disseminação de informações, mas também toca diretamente em temas como a responsabilidade das grandes empresas tecnológicas e a forma como essas corporações interagem com seus usuários e com a legislação local. Assim, a discussão sobre o PL é apenas uma faceta do debate global sobre a necessidade de regular a internet para garantir um ambiente digital mais seguro, transparente e responsável.
 
-📢 Para mais conteúdos como esse, acesse nosso Instagram @fala_.verdade e nosso TikTok de mesmo nome. 
-
-FONTES
-https://www25.senado.leg.br/web/atividade/materias/-/materia/141944
-https://www1.folha.uol.com.br/poder/2023/05/google-lanca-ofensiva-contra-pl-das-fake-news-mostram-emails-e-relatorio.shtml
-https://www.metropoles.com/brasil/pf-ve-abuso-em-campanhas-do-google-e-telegram-contra-pl-das-fake-news
-https://www.meioemensagem.com.br/midia/google-e-pl-das-fake-news
-`
+📢 Para mais conteúdos como esse, acesse nosso Instagram @fala_.verdade e nosso TikTok de mesmo nome. `
                 );
                 break;
 
@@ -143,12 +136,7 @@ A relação entre o BBB e as fake news é clara de como a plataformização pode
 A regulamentação das plataformas digitais é uma questão cada vez mais discutida, principalmente devido aos impactos que a plataformização e a desinformação geram não só eventos como o BBB, mas também em contextos políticos e sociais mais amplos. Países ao redor do mundo estão começando a implementar normas para responsabilizar as empresas de tecnologia pela manipulação de informações e pela propagação de conteúdo prejudicial. 
 Essas regulamentações buscam não só aumentar a transparência das práticas de algoritmos, como também exigir que as plataformas sejam mais ativas na verificação de fatos e na remoção de fake news. No Brasil, a regulamentação da internet está em debate com projetos como o PL das Fake News, que visa criar mecanismos para limitar a disseminação de conteúdos falsos, punir quem fabrica e divulga essas informações e exigir maior responsabilidade das plataformas. 
 Em conclusão, a plataformização mudou a maneira que nós interagimos com a mídia e a sociedade, exemplificada pelo impacto do BBB e a disseminação de fake news. Embora as plataformas digitais ofereçam diferentes formas de participação e engajamento, elas também criam desafios, como a manipulação de informações e a polarização. A regulamentação dessas plataformas é essencial para diminuir os danos da desinformação e proteger a integridade dos processos sociais e democráticos. A evolução dessas questões continuará a demandar atenção e diferentes soluções a fim de garantir um ambiente digital saudável e seguro.
-📢 Para mais informações sobre Regulamentação das plataformas e desinformação, acesse nosso Instagram @fala_.verdade e nosso TikTok de mesmo nome.
-
-FONTE
-https://www.cartacapital.com.br/blogs/midiatico/da-globo-ao-congresso-a-relacao-entre-o-bbb-o-pl-das-fake-news-e-a-regulacao-da-midia
-https://www.researchgate.net/publication/385915649_A_PLATAFORMIZACAO_DA_DESINFORMACAO_E_O_PROJETO_DE_LEI_DAS_FAKE_NEWS
-`
+📢 Para mais informações sobre Regulamentação das plataformas e desinformação, acesse nosso Instagram @fala_.verdade e nosso TikTok de mesmo nome.`
                 );
                 break;
 
